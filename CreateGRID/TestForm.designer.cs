@@ -42,7 +42,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(603, 434);
+            this.btnClose.Location = new System.Drawing.Point(722, 587);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
             this.btnClose.TabIndex = 1;
@@ -93,16 +93,15 @@
             // 
             this.winformsMap1.BackColor = System.Drawing.Color.White;
             this.winformsMap1.CompositingQuality = System.Drawing.Drawing2D.CompositingQuality.Default;
-            this.winformsMap1.CurrentScale = 590591790;
             this.winformsMap1.DrawingQuality = ThinkGeo.MapSuite.Drawing.DrawingQuality.Default;
             this.winformsMap1.Location = new System.Drawing.Point(12, 12);
             this.winformsMap1.MapFocusMode = ThinkGeo.MapSuite.WinForms.MapFocusMode.Default;
             this.winformsMap1.MapResizeMode = ThinkGeo.MapSuite.Shapes.MapResizeMode.PreserveScale;
             this.winformsMap1.MapUnit = ThinkGeo.MapSuite.GeographyUnit.DecimalDegree;
-            this.winformsMap1.MaximumScale = 80000000000000;
-            this.winformsMap1.MinimumScale = 200;
+            this.winformsMap1.MaximumScale = 80000000000000D;
+            this.winformsMap1.MinimumScale = 200D;
             this.winformsMap1.Name = "winformsMap1";
-            this.winformsMap1.Size = new System.Drawing.Size(666, 407);
+            this.winformsMap1.Size = new System.Drawing.Size(785, 569);
             this.winformsMap1.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             this.winformsMap1.TabIndex = 2;
             this.winformsMap1.Text = "winformsMap1";
@@ -117,9 +116,9 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabelScreen,
             this.toolStripStatusLabelWorld});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 468);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 613);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(690, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(809, 22);
             this.statusStrip1.TabIndex = 46;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -143,7 +142,7 @@
             // btnGRID
             // 
             this.btnGRID.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGRID.Location = new System.Drawing.Point(12, 434);
+            this.btnGRID.Location = new System.Drawing.Point(12, 587);
             this.btnGRID.Name = "btnGRID";
             this.btnGRID.Size = new System.Drawing.Size(106, 23);
             this.btnGRID.TabIndex = 47;
@@ -155,7 +154,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(690, 490);
+            this.ClientSize = new System.Drawing.Size(809, 635);
             this.Controls.Add(this.btnGRID);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.winformsMap1);
